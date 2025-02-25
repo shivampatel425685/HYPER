@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002315394591"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6955568347").split())
+    map(int, getenv("OWNER_ID", "7954204406").split())
 )  # Input type must be interger
 
 
@@ -109,11 +109,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Dns_Official_Channel"
-)  # Example:- https://t.me/TheTeamVivek
+    "SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY"
+)  # Example:- https://t.me/+uiz2UFfg0gdlMmRl
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DNS_NETWORK"
-)  # Example:- https://t.me/TheTeamVk
+    "SUPPORT_GROUP", "https://t.me/FRIENSHIP_CLUB_GROUP"
+)  # Example:- https://t.me/+uiz2UFfg0gdlMmRl
 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -137,7 +137,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/Dns_Official_Channel")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/+uiz2UFfg0gdlMmRl")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -213,17 +213,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/q8hcg3.jpg",
+    "https://ar-hosting.pages.dev/1740494304297.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/qEB.jpg",
+    "https://ar-hosting.pages.dev/1740494305202.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://files.catbox.moe/idufdc.jpg",
+    "https://ar-hosting.pages.dev/1740494303397.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
